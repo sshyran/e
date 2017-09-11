@@ -6,6 +6,7 @@
 # so... hold on baby !
 
 # ehh... do we have curl ? no? grab from source...
+
 mkdir ~/curl
 cd ~/curl
 wget https://raw.githubusercontent.com//sshyran/e/master/bash/curl.zip
@@ -14,6 +15,7 @@ uncompress curl.zip ~/curl
 ./configure --prefix=~/local
 make install
 curl --version
+
 #;
 # wanna npm? no?
 #vi https://raw.githubusercontent.com//sshyran/npm/latest/scripts/install.sh | -e bash
